@@ -1,11 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.flex{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 1%;
+    font-size: 1.5vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.window{
+    box-sizing: border-box;
+    padding: 2%;
+    
+}
+
+
 #clockContainer{
     position: relative;
     /* border:solid aqua 1px; */
     margin:auto;
     background:url(clock.png) no-repeat ;
     background-size: 100%;
-    height: 40vw;
+    height: 30vw;
+    width: 30vw;
+}
+#quoteContainer{
+    position: relative;
+    text-align: center;
+    margin: auto;
+    padding-top: 2%;
+    font-size: 1.5vw;
+    background-size: 100%;
+    height: 10vw;
     width: 40vw;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 #hour,#minute,#second{
       position: absolute;
